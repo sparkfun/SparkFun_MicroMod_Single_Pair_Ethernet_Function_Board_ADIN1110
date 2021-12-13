@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -319,12 +319,12 @@
 <text x="-2.5" y="-4.15" size="0.6096" layer="27" font="vector" ratio="20" distance="15">&gt;Value</text>
 </package>
 <package name="T1_INDUSTRIAL_JACK_AH_IP20">
-<pad name="S1" x="-3.8" y="11.12" drill="0.95" diameter="1.35"/>
-<pad name="S2" x="3.8" y="11.12" drill="0.95" diameter="1.35"/>
-<pad name="S3" x="4.45" y="1.37" drill="0.95" diameter="1.35"/>
-<pad name="S4" x="-4.45" y="1.37" drill="0.95" diameter="1.35"/>
-<pad name="1" x="1.4" y="8.52" drill="0.85" diameter="1.25"/>
-<pad name="2" x="-1.4" y="8.52" drill="0.85" diameter="1.25"/>
+<pad name="S1" x="-3.8" y="11.12" drill="0.9" diameter="1.35"/>
+<pad name="S2" x="3.8" y="11.12" drill="0.9" diameter="1.35"/>
+<pad name="S3" x="4.45" y="1.37" drill="0.9" diameter="1.35"/>
+<pad name="S4" x="-4.45" y="1.37" drill="0.9" diameter="1.35"/>
+<pad name="1" x="1.4" y="8.52" drill="0.8" diameter="1.25"/>
+<pad name="2" x="-1.4" y="8.52" drill="0.8" diameter="1.25"/>
 <wire x1="-6" y1="0" x2="6" y2="0" width="0.2032" layer="51"/>
 <text x="5.55" y="-0.23" size="0.2" layer="51" font="vector" align="center">PCB EDGE</text>
 <wire x1="-4.6" y1="-3.73" x2="4.6" y2="-3.73" width="0.1" layer="51"/>
@@ -378,6 +378,221 @@
 <wire x1="-0.7248" y1="-0.62" x2="-0.7248" y2="0.62" width="0.1524" layer="21"/>
 <wire x1="-0.7248" y1="0.62" x2="-0.6048" y2="0.62" width="0.1524" layer="21"/>
 </package>
+<package name="#LINKST#2">
+<polygon width="0.01" layer="21">
+<vertex x="-2.69" y="0.68"/>
+<vertex x="-2.76" y="0.67"/>
+<vertex x="-2.83" y="0.65"/>
+<vertex x="-2.89" y="0.63"/>
+<vertex x="-3.01" y="0.57"/>
+<vertex x="-3.07" y="0.53"/>
+<vertex x="-3.12" y="0.49"/>
+<vertex x="-3.16" y="0.44"/>
+<vertex x="-3.2" y="0.38"/>
+<vertex x="-3.24" y="0.33"/>
+<vertex x="-3.27" y="0.26"/>
+<vertex x="-3.31" y="0.14"/>
+<vertex x="-3.32" y="0.07"/>
+<vertex x="-3.32" y="-0.07"/>
+<vertex x="-3.31" y="-0.13"/>
+<vertex x="-3.29" y="-0.2"/>
+<vertex x="-3.27" y="-0.26"/>
+<vertex x="-3.24" y="-0.32"/>
+<vertex x="-3.16" y="-0.44"/>
+<vertex x="-3.12" y="-0.49"/>
+<vertex x="-3.07" y="-0.53"/>
+<vertex x="-3.01" y="-0.57"/>
+<vertex x="-2.89" y="-0.63"/>
+<vertex x="-2.83" y="-0.65"/>
+<vertex x="-2.76" y="-0.67"/>
+<vertex x="-2.69" y="-0.68"/>
+<vertex x="2.549" y="-0.68"/>
+<vertex x="2.599" y="-0.67"/>
+<vertex x="2.599" y="0.62"/>
+<vertex x="2.589" y="0.68"/>
+<vertex x="-2.64" y="0.68"/>
+<vertex x="-2.54" y="0.47"/>
+<vertex x="-2.46" y="0.48"/>
+<vertex x="-2.39" y="0.46"/>
+<vertex x="-2.36" y="0.41"/>
+<vertex x="-2.36" y="-0.26"/>
+<vertex x="-2.33" y="-0.28"/>
+<vertex x="-1.98" y="-0.29"/>
+<vertex x="-1.93" y="-0.31"/>
+<vertex x="-1.91" y="-0.37"/>
+<vertex x="-1.71" y="-0.34"/>
+<vertex x="-1.71" y="0.4"/>
+<vertex x="-1.69" y="0.45"/>
+<vertex x="-1.64" y="0.48"/>
+<vertex x="-1.55" y="0.48"/>
+<vertex x="-1.5" y="0.45"/>
+<vertex x="-1.48" y="0.39"/>
+<vertex x="-1.48" y="-0.36"/>
+<vertex x="-1.28" y="-0.35"/>
+<vertex x="-1.28" y="0.4"/>
+<vertex x="-1.25" y="0.46"/>
+<vertex x="-1.19" y="0.48"/>
+<vertex x="-1.12" y="0.48"/>
+<vertex x="-1.07" y="0.45"/>
+<vertex x="-1.01" y="0.38"/>
+<vertex x="-0.81" y="0.11"/>
+<vertex x="-0.69" y="-0.06"/>
+<vertex x="-0.67" y="-0.05"/>
+<vertex x="-0.67" y="0.43"/>
+<vertex x="-0.64" y="0.46"/>
+<vertex x="-0.58" y="0.48"/>
+<vertex x="-0.51" y="0.48"/>
+<vertex x="-0.46" y="0.44"/>
+<vertex x="-0.44" y="0.38"/>
+<vertex x="-0.44" y="-0.38"/>
+<vertex x="-0.24" y="-0.39"/>
+<vertex x="-0.24" y="0.42"/>
+<vertex x="-0.22" y="0.48"/>
+<vertex x="-0.15" y="0.49"/>
+<vertex x="-0.07" y="0.49"/>
+<vertex x="-0.02" y="0.45"/>
+<vertex x="-0.01" y="0.39"/>
+<vertex x="-0.01" y="0.18"/>
+<vertex x="0" y="0.14"/>
+<vertex x="0.15" y="0.31"/>
+<vertex x="0.27" y="0.45"/>
+<vertex x="0.32" y="0.5"/>
+<vertex x="0.37" y="0.51"/>
+<vertex x="0.43" y="0.47"/>
+<vertex x="0.48" y="0.41"/>
+<vertex x="0.49" y="0.36"/>
+<vertex x="0.45" y="0.3"/>
+<vertex x="0.21" y="0.06"/>
+<vertex x="0.22" y="-0.04"/>
+<vertex x="0.38" y="-0.19"/>
+<vertex x="0.45" y="-0.27"/>
+<vertex x="0.49" y="-0.33"/>
+<vertex x="0.68" y="-0.28"/>
+<vertex x="0.68" y="-0.23"/>
+<vertex x="0.72" y="-0.17"/>
+<vertex x="0.78" y="-0.14"/>
+<vertex x="0.83" y="-0.15"/>
+<vertex x="0.95" y="-0.24"/>
+<vertex x="1.01" y="-0.26"/>
+<vertex x="1.09" y="-0.24"/>
+<vertex x="1.13" y="-0.2"/>
+<vertex x="1.13" y="-0.14"/>
+<vertex x="1.08" y="-0.1"/>
+<vertex x="0.95" y="-0.06"/>
+<vertex x="0.88" y="-0.04"/>
+<vertex x="0.82" y="-0.01"/>
+<vertex x="0.77" y="0.02"/>
+<vertex x="0.72" y="0.08"/>
+<vertex x="0.7" y="0.14"/>
+<vertex x="0.69" y="0.21"/>
+<vertex x="0.69" y="0.28"/>
+<vertex x="0.71" y="0.34"/>
+<vertex x="0.75" y="0.4"/>
+<vertex x="0.79" y="0.44"/>
+<vertex x="0.85" y="0.48"/>
+<vertex x="0.91" y="0.5"/>
+<vertex x="0.98" y="0.51"/>
+<vertex x="1.06" y="0.51"/>
+<vertex x="1.12" y="0.5"/>
+<vertex x="1.19" y="0.47"/>
+<vertex x="1.24" y="0.44"/>
+<vertex x="1.3" y="0.39"/>
+<vertex x="1.31" y="0.34"/>
+<vertex x="1.55" y="0.39"/>
+<vertex x="1.57" y="0.45"/>
+<vertex x="1.62" y="0.48"/>
+<vertex x="2.4" y="0.48"/>
+<vertex x="2.45" y="0.45"/>
+<vertex x="2.46" y="0.39"/>
+<vertex x="2.45" y="0.32"/>
+<vertex x="2.4" y="0.29"/>
+<vertex x="2.12" y="0.29"/>
+<vertex x="2.12" y="-0.39"/>
+<vertex x="2.1" y="-0.45"/>
+<vertex x="2.05" y="-0.47"/>
+<vertex x="1.97" y="-0.47"/>
+<vertex x="1.91" y="-0.45"/>
+<vertex x="1.9" y="-0.39"/>
+<vertex x="1.9" y="0.29"/>
+<vertex x="1.62" y="0.29"/>
+<vertex x="1.57" y="0.32"/>
+<vertex x="1.55" y="0.39"/>
+<vertex x="1.31" y="0.34"/>
+<vertex x="1.27" y="0.27"/>
+<vertex x="1.22" y="0.23"/>
+<vertex x="1.16" y="0.23"/>
+<vertex x="1.1" y="0.27"/>
+<vertex x="1.04" y="0.3"/>
+<vertex x="0.97" y="0.29"/>
+<vertex x="0.92" y="0.25"/>
+<vertex x="0.93" y="0.18"/>
+<vertex x="0.98" y="0.15"/>
+<vertex x="1.05" y="0.13"/>
+<vertex x="1.11" y="0.11"/>
+<vertex x="1.18" y="0.09"/>
+<vertex x="1.24" y="0.07"/>
+<vertex x="1.29" y="0.03"/>
+<vertex x="1.34" y="-0.02"/>
+<vertex x="1.36" y="-0.08"/>
+<vertex x="1.36" y="-0.23"/>
+<vertex x="1.34" y="-0.29"/>
+<vertex x="1.31" y="-0.35"/>
+<vertex x="1.26" y="-0.4"/>
+<vertex x="1.14" y="-0.46"/>
+<vertex x="1.07" y="-0.47"/>
+<vertex x="0.94" y="-0.47"/>
+<vertex x="0.87" y="-0.45"/>
+<vertex x="0.81" y="-0.42"/>
+<vertex x="0.75" y="-0.37"/>
+<vertex x="0.71" y="-0.33"/>
+<vertex x="0.68" y="-0.28"/>
+<vertex x="0.49" y="-0.33"/>
+<vertex x="0.48" y="-0.38"/>
+<vertex x="0.43" y="-0.44"/>
+<vertex x="0.37" y="-0.47"/>
+<vertex x="0.32" y="-0.46"/>
+<vertex x="0.27" y="-0.41"/>
+<vertex x="0" y="-0.1"/>
+<vertex x="-0.01" y="-0.15"/>
+<vertex x="-0.01" y="-0.36"/>
+<vertex x="-0.02" y="-0.42"/>
+<vertex x="-0.06" y="-0.45"/>
+<vertex x="-0.15" y="-0.46"/>
+<vertex x="-0.22" y="-0.44"/>
+<vertex x="-0.24" y="-0.4"/>
+<vertex x="-0.44" y="-0.38"/>
+<vertex x="-0.46" y="-0.44"/>
+<vertex x="-0.5" y="-0.47"/>
+<vertex x="-0.59" y="-0.47"/>
+<vertex x="-0.65" y="-0.46"/>
+<vertex x="-0.7" y="-0.39"/>
+<vertex x="-1.04" y="0.04"/>
+<vertex x="-1.05" y="0.06"/>
+<vertex x="-1.05" y="-0.42"/>
+<vertex x="-1.09" y="-0.46"/>
+<vertex x="-1.17" y="-0.47"/>
+<vertex x="-1.24" y="-0.46"/>
+<vertex x="-1.28" y="-0.41"/>
+<vertex x="-1.28" y="-0.35"/>
+<vertex x="-1.48" y="-0.36"/>
+<vertex x="-1.49" y="-0.42"/>
+<vertex x="-1.52" y="-0.46"/>
+<vertex x="-1.61" y="-0.47"/>
+<vertex x="-1.68" y="-0.46"/>
+<vertex x="-1.71" y="-0.42"/>
+<vertex x="-1.71" y="-0.35"/>
+<vertex x="-1.91" y="-0.37"/>
+<vertex x="-1.92" y="-0.44"/>
+<vertex x="-1.98" y="-0.47"/>
+<vertex x="-2.53" y="-0.47"/>
+<vertex x="-2.58" y="-0.44"/>
+<vertex x="-2.59" y="-0.38"/>
+<vertex x="-2.59" y="0.37"/>
+<vertex x="-2.58" y="0.44"/>
+<vertex x="-2.55" y="0.47"/>
+<vertex x="-2.65" y="0.68"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="ADIN1110">
@@ -418,7 +633,7 @@
 <pin name="TEST2" x="20.32" y="-10.16" length="short" rot="R180"/>
 <pin name="CLK25_REF" x="-20.32" y="7.62" length="short"/>
 <pin name="SPI_CFG1" x="-20.32" y="-12.7" length="short"/>
-<pin name="NC" x="20.32" y="-22.86" length="short" rot="R180"/>
+<pin name="NC" x="20.32" y="-22.86" length="short" direction="nc" rot="R180"/>
 </symbol>
 <symbol name="CONN_02">
 <description>&lt;h3&gt;2 Pin Connection&lt;/h3&gt;</description>
@@ -428,8 +643,8 @@
 <wire x1="-5.08" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
 <text x="1.016" y="-5.842" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
 <text x="1.27" y="5.588" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
-<pin name="1" x="10.16" y="0" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="10.16" y="2.54" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="DA+" x="10.16" y="0" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="DA-" x="10.16" y="2.54" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="SHIELD" x="10.16" y="-2.54" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 <symbol name="WE-STST_TRANSFORMER">
@@ -439,14 +654,13 @@ Transformer with PoE
 &lt;br&gt;
 &lt;br&gt;
 Wurth Electronics Part No: 74930030</description>
-<pin name="1" x="-7.62" y="7.62" visible="off" length="middle"/>
-<pin name="2" x="-7.62" y="-12.7" visible="off" length="middle"/>
-<pin name="3" x="7.62" y="-5.08" visible="off" length="middle" rot="R180"/>
-<pin name="4" x="7.62" y="0" visible="off" length="middle" rot="R180"/>
-<pin name="5" x="-7.62" y="-2.54" visible="off" length="middle"/>
-<pin name="6" x="7.62" y="10.16" visible="off" length="middle" rot="R180"/>
-<pin name="7" x="7.62" y="-15.24" visible="off" length="middle" rot="R180"/>
-<wire x1="-2.54" y1="7.62" x2="-2.286" y2="7.62" width="0.1524" layer="94"/>
+<pin name="1" x="-10.16" y="7.62" visible="off" length="middle"/>
+<pin name="2" x="-10.16" y="-12.7" visible="off" length="middle"/>
+<pin name="3" x="10.16" y="-5.08" visible="off" length="middle" rot="R180"/>
+<pin name="4" x="10.16" y="0" visible="off" length="middle" rot="R180"/>
+<pin name="5" x="-10.16" y="-2.54" visible="off" length="middle"/>
+<pin name="6" x="10.16" y="10.16" visible="off" length="middle" rot="R180"/>
+<pin name="7" x="10.16" y="-15.24" visible="off" length="middle" rot="R180"/>
 <wire x1="-2.286" y1="7.62" x2="-1.016" y2="6.35" width="0.1524" layer="94" curve="-90"/>
 <wire x1="-1.016" y1="6.35" x2="-2.286" y2="5.08" width="0.1524" layer="94" curve="-90"/>
 <wire x1="-2.54" y1="5.08" x2="-2.286" y2="5.08" width="0.1524" layer="94"/>
@@ -464,7 +678,6 @@ Wurth Electronics Part No: 74930030</description>
 <vertex x="-2.286" y="6.858" curve="90"/>
 <vertex x="-2.794" y="6.35" curve="90"/>
 </polygon>
-<wire x1="-2.54" y1="-2.54" x2="-2.286" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="-2.286" y1="-2.54" x2="-1.016" y2="-3.81" width="0.1524" layer="94" curve="-90"/>
 <wire x1="-1.016" y1="-3.81" x2="-2.286" y2="-5.08" width="0.1524" layer="94" curve="-90"/>
 <wire x1="-2.54" y1="-5.08" x2="-2.286" y2="-5.08" width="0.1524" layer="94"/>
@@ -476,14 +689,12 @@ Wurth Electronics Part No: 74930030</description>
 <wire x1="-2.54" y1="-10.16" x2="-2.286" y2="-10.16" width="0.1524" layer="94"/>
 <wire x1="-2.286" y1="-10.16" x2="-1.016" y2="-11.43" width="0.1524" layer="94" curve="-90"/>
 <wire x1="-1.016" y1="-11.43" x2="-2.286" y2="-12.7" width="0.1524" layer="94" curve="-90"/>
-<wire x1="-2.286" y1="-12.7" x2="-2.54" y2="-12.7" width="0.1524" layer="94"/>
 <polygon width="0.1524" layer="94">
 <vertex x="-2.286" y="-4.318" curve="90"/>
 <vertex x="-1.778" y="-3.81" curve="90"/>
 <vertex x="-2.286" y="-3.302" curve="90"/>
 <vertex x="-2.794" y="-3.81" curve="90"/>
 </polygon>
-<wire x1="2.54" y1="10.16" x2="2.286" y2="10.16" width="0.1524" layer="94"/>
 <wire x1="2.286" y1="10.16" x2="1.016" y2="8.89" width="0.1524" layer="94" curve="90"/>
 <wire x1="1.016" y1="8.89" x2="2.286" y2="7.62" width="0.1524" layer="94" curve="90"/>
 <wire x1="2.54" y1="7.62" x2="2.286" y2="7.62" width="0.1524" layer="94"/>
@@ -495,7 +706,6 @@ Wurth Electronics Part No: 74930030</description>
 <wire x1="2.54" y1="2.54" x2="2.286" y2="2.54" width="0.1524" layer="94"/>
 <wire x1="2.286" y1="2.54" x2="1.016" y2="1.27" width="0.1524" layer="94" curve="90"/>
 <wire x1="1.016" y1="1.27" x2="2.286" y2="0" width="0.1524" layer="94" curve="90"/>
-<wire x1="2.286" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
 <polygon width="0.1524" layer="94">
 <vertex x="2.286" y="8.382" curve="-90"/>
 <vertex x="1.778" y="8.89" curve="-90"/>
@@ -503,7 +713,6 @@ Wurth Electronics Part No: 74930030</description>
 <vertex x="2.794" y="8.89" curve="-90"/>
 </polygon>
 <wire x1="0" y1="10.16" x2="0" y2="-15.24" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="2.286" y2="-5.08" width="0.1524" layer="94"/>
 <wire x1="2.286" y1="-5.08" x2="1.016" y2="-6.35" width="0.1524" layer="94" curve="90"/>
 <wire x1="1.016" y1="-6.35" x2="2.286" y2="-7.62" width="0.1524" layer="94" curve="90"/>
 <wire x1="2.54" y1="-7.62" x2="2.286" y2="-7.62" width="0.1524" layer="94"/>
@@ -515,7 +724,6 @@ Wurth Electronics Part No: 74930030</description>
 <wire x1="2.54" y1="-12.7" x2="2.286" y2="-12.7" width="0.1524" layer="94"/>
 <wire x1="2.286" y1="-12.7" x2="1.016" y2="-13.97" width="0.1524" layer="94" curve="90"/>
 <wire x1="1.016" y1="-13.97" x2="2.286" y2="-15.24" width="0.1524" layer="94" curve="90"/>
-<wire x1="2.286" y1="-15.24" x2="2.54" y2="-15.24" width="0.1524" layer="94"/>
 <polygon width="0.1524" layer="94">
 <vertex x="2.286" y="-6.858" curve="-90"/>
 <vertex x="1.778" y="-6.35" curve="-90"/>
@@ -526,8 +734,19 @@ Wurth Electronics Part No: 74930030</description>
 <text x="5.08" y="5.08" size="1.778" layer="97" font="vector" align="center">N2</text>
 <text x="5.08" y="-10.16" size="1.778" layer="97" font="vector" align="center">N3</text>
 <text x="-5.08" y="-7.62" size="1.778" layer="97" font="vector" align="center">N4</text>
-<text x="0" y="-17.78" size="1.778" layer="96" font="vector" align="center">&gt;VALUE</text>
-<text x="0" y="12.7" size="1.778" layer="95" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-20.32" size="1.778" layer="96" font="vector" align="center">&gt;VALUE</text>
+<text x="0" y="15.24" size="1.778" layer="95" font="vector" align="center">&gt;NAME</text>
+<wire x1="-2.286" y1="7.62" x2="-5.08" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-2.286" y1="-2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.286" y1="-12.7" x2="-5.08" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-15.24" x2="5.08" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="10.16" x2="5.08" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="12.7" x2="7.62" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-17.78" x2="-7.62" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-17.78" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
 </symbol>
 <symbol name="WE-TVS_DIODE_ARRAY">
 <pin name="1" x="-7.62" y="-12.7" visible="off" length="short" rot="R90"/>
@@ -662,8 +881,8 @@ reach, 10 Mbps single pair Ethernet (SPE).</description>
 <devices>
 <device name="" package="T1_INDUSTRIAL_JACK_AH_IP20">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="DA+" pad="1"/>
+<connect gate="G$1" pin="DA-" pad="2"/>
 <connect gate="G$1" pin="SHIELD" pad="S1 S2 S3 S4"/>
 </connects>
 <technologies>
