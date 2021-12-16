@@ -22124,6 +22124,8 @@ Used as a test point connection for pogo pins or other debugging tools.
 <wire x1="-0.6048" y1="-0.62" x2="-0.7248" y2="-0.62" width="0.1524" layer="21"/>
 <wire x1="-0.7248" y1="-0.62" x2="-0.7248" y2="0.62" width="0.1524" layer="21"/>
 <wire x1="-0.7248" y1="0.62" x2="-0.6048" y2="0.62" width="0.1524" layer="21"/>
+<text x="0" y="1.27" size="0.6096" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
+<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="12" align="center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -23802,6 +23804,10 @@ Out</text>
 <part name="LED-LINK" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
 <part name="LED-1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
 <part name="LED-0" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
+<part name="R24" library="SparkFun-Resistors" deviceset="1.5KOHM" device="-0603-1/10W-1%" value="1.5k"/>
+<part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="R25" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0402T-1/16W-1%" value="4.7k"/>
+<part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23821,7 +23827,7 @@ Out</text>
 
 *place C11 (0.68uF) close to DLDO</text>
 <text x="16.764" y="249.936" size="1.27" layer="97" font="vector">*place close to AVDD_L</text>
-<text x="59.944" y="249.936" size="1.27" layer="97" font="vector">*place close to AVDD_H</text>
+<text x="52.324" y="249.936" size="1.27" layer="97" font="vector">*place close to AVDD_H</text>
 <text x="98.044" y="249.936" size="1.27" layer="97" font="vector">*place close to VDDIO</text>
 <text x="138.43" y="173.736" size="1.27" layer="97" font="vector" align="top-left">*TEST2 
 intentionally 
@@ -24014,7 +24020,7 @@ disable each LED</text>
 <attribute name="VALUE" x="43.688" y="187.96" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="SUPPLY18" gate="G$1" x="91.44" y="210.82" smashed="yes">
-<attribute name="VALUE" x="91.44" y="213.614" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="91.694" y="213.868" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="GND34" gate="1" x="91.44" y="154.94" smashed="yes">
 <attribute name="VALUE" x="91.44" y="154.686" size="1.778" layer="96" font="vector" align="top-center"/>
@@ -24046,22 +24052,22 @@ disable each LED</text>
 <instance part="SUPPLY19" gate="G$1" x="20.32" y="241.3" smashed="yes">
 <attribute name="VALUE" x="20.32" y="244.094" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="C13" gate="G$1" x="63.5" y="231.14" smashed="yes" rot="MR0">
-<attribute name="NAME" x="65.024" y="233.934" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="64.77" y="229.108" size="1.778" layer="96" font="vector"/>
+<instance part="C13" gate="G$1" x="55.88" y="231.14" smashed="yes" rot="MR0">
+<attribute name="NAME" x="57.404" y="233.934" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="57.15" y="229.108" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND39" gate="1" x="63.5" y="223.52" smashed="yes">
-<attribute name="VALUE" x="63.5" y="223.266" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND39" gate="1" x="55.88" y="223.52" smashed="yes">
+<attribute name="VALUE" x="55.88" y="223.266" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="C14" gate="G$1" x="76.2" y="231.14" smashed="yes">
-<attribute name="NAME" x="77.724" y="234.061" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="77.724" y="228.981" size="1.778" layer="96" font="vector"/>
+<instance part="C14" gate="G$1" x="68.58" y="231.14" smashed="yes">
+<attribute name="NAME" x="70.104" y="234.061" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="70.104" y="228.981" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND40" gate="1" x="76.2" y="223.52" smashed="yes">
-<attribute name="VALUE" x="76.2" y="223.266" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND40" gate="1" x="68.58" y="223.52" smashed="yes">
+<attribute name="VALUE" x="68.58" y="223.266" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="SUPPLY20" gate="G$1" x="63.5" y="241.3" smashed="yes">
-<attribute name="VALUE" x="63.5" y="244.094" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY20" gate="G$1" x="55.88" y="241.3" smashed="yes">
+<attribute name="VALUE" x="55.88" y="244.094" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="C15" gate="G$1" x="12.7" y="195.58" smashed="yes" rot="MR0">
 <attribute name="NAME" x="14.224" y="198.374" size="1.778" layer="95" font="vector"/>
@@ -24302,6 +24308,20 @@ disable each LED</text>
 <instance part="LED-0" gate="G$1" x="210.82" y="93.98" smashed="yes" rot="R180">
 <attribute name="NAME" x="207.264" y="90.17" size="1.778" layer="95" font="vector"/>
 </instance>
+<instance part="R24" gate="G$1" x="144.78" y="63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="143.256" y="63.5" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="146.304" y="63.5" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="SUPPLY2" gate="G$1" x="144.78" y="71.12" smashed="yes">
+<attribute name="VALUE" x="144.78" y="73.914" size="1.778" layer="96" font="vector" align="bottom-center"/>
+</instance>
+<instance part="R25" gate="G$1" x="134.62" y="63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="133.096" y="63.5" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="136.144" y="63.5" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="SUPPLY3" gate="G$1" x="134.62" y="71.12" smashed="yes">
+<attribute name="VALUE" x="134.62" y="73.914" size="1.778" layer="96" font="vector" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -24412,12 +24432,12 @@ disable each LED</text>
 <segment>
 <pinref part="C13" gate="G$1" pin="2"/>
 <pinref part="GND39" gate="1" pin="GND"/>
-<wire x1="63.5" y1="226.06" x2="63.5" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="226.06" x2="55.88" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND40" gate="1" pin="GND"/>
 <pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="226.06" x2="76.2" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="226.06" x2="68.58" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C15" gate="G$1" pin="2"/>
@@ -24547,12 +24567,12 @@ disable each LED</text>
 <segment>
 <pinref part="SUPPLY20" gate="G$1" pin="3.3V"/>
 <pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="236.22" x2="63.5" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="236.22" x2="55.88" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="238.76" x2="63.5" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="236.22" x2="76.2" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="238.76" x2="63.5" y2="238.76" width="0.1524" layer="91"/>
-<junction x="63.5" y="238.76"/>
+<wire x1="55.88" y1="238.76" x2="55.88" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="236.22" x2="68.58" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="238.76" x2="55.88" y2="238.76" width="0.1524" layer="91"/>
+<junction x="55.88" y="238.76"/>
 </segment>
 <segment>
 <pinref part="SUPPLY21" gate="G$1" pin="3.3V"/>
@@ -24615,6 +24635,16 @@ disable each LED</text>
 <wire x1="243.84" y1="66.04" x2="243.84" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="243.84" y1="66.04" x2="241.3" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
+<wire x1="144.78" y1="71.12" x2="144.78" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="R24" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="SUPPLY3" gate="G$1" pin="3.3V"/>
+<wire x1="134.62" y1="68.58" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="R25" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="SPI_COPI" class="0">
@@ -24837,13 +24867,17 @@ disable each LED</text>
 <net name="!INT!" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="!INT!"/>
-<wire x1="93.98" y1="175.26" x2="91.44" y2="175.26" width="0.1524" layer="91"/>
 <label x="91.44" y="175.26" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="93.98" y1="175.26" x2="91.44" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="121.92" y="55.88" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="149.86" y="55.88" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J2" gate="J1" pin="F0/!INT!"/>
-<wire x1="121.92" y1="55.88" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="55.88" x2="144.78" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="R24" gate="G$1" pin="1"/>
+<wire x1="144.78" y1="55.88" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="55.88" x2="144.78" y2="58.42" width="0.1524" layer="91"/>
+<junction x="144.78" y="55.88"/>
 </segment>
 </net>
 <net name="!CS!" class="0">
@@ -24853,9 +24887,13 @@ disable each LED</text>
 <label x="91.44" y="172.72" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="121.92" y="53.34" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="149.86" y="53.34" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J2" gate="J1" pin="F1/!CS!"/>
-<wire x1="121.92" y1="53.34" x2="119.38" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="53.34" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="R25" gate="G$1" pin="1"/>
+<wire x1="134.62" y1="53.34" x2="119.38" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="53.34" x2="134.62" y2="58.42" width="0.1524" layer="91"/>
+<junction x="134.62" y="53.34"/>
 </segment>
 </net>
 <net name="SPI_CFG1" class="0">
@@ -24952,7 +24990,7 @@ disable each LED</text>
 <wire x1="381" y1="198.12" x2="381" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="!MS_SEL!" class="0">
+<net name="MS_SEL" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="TS_TIMER/MS_SEL"/>
 <wire x1="134.62" y1="162.56" x2="137.16" y2="162.56" width="0.1524" layer="91"/>
