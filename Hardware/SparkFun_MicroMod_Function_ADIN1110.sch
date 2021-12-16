@@ -24919,6 +24919,11 @@ disable each LED</text>
 <wire x1="43.18" y1="193.04" x2="43.18" y2="195.58" width="0.1524" layer="91"/>
 <junction x="43.18" y="195.58"/>
 </segment>
+<segment>
+<pinref part="J2" gate="J1" pin="F5"/>
+<wire x1="119.38" y1="43.18" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
+<label x="121.92" y="43.18" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="1.1V" class="0">
 <segment>
