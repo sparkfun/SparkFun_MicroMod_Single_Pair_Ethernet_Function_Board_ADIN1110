@@ -22066,12 +22066,12 @@ Used as a test point connection for pogo pins or other debugging tools.
 <text x="-2.5" y="-4.15" size="0.6096" layer="27" font="vector" ratio="20" distance="15">&gt;Value</text>
 </package>
 <package name="T1_INDUSTRIAL_JACK_AH_IP20">
-<pad name="S1" x="-3.8" y="11.12" drill="0.9" diameter="1.35"/>
-<pad name="S2" x="3.8" y="11.12" drill="0.9" diameter="1.35"/>
-<pad name="S3" x="4.45" y="1.37" drill="0.9" diameter="1.35"/>
-<pad name="S4" x="-4.45" y="1.37" drill="0.9" diameter="1.35"/>
-<pad name="1" x="1.4" y="8.52" drill="0.8" diameter="1.25"/>
-<pad name="2" x="-1.4" y="8.52" drill="0.8" diameter="1.25"/>
+<pad name="S1" x="-3.8" y="11.12" drill="0.95" diameter="1.35"/>
+<pad name="S2" x="3.8" y="11.12" drill="0.95" diameter="1.35"/>
+<pad name="S3" x="4.45" y="1.37" drill="0.95" diameter="1.35"/>
+<pad name="S4" x="-4.45" y="1.37" drill="0.95" diameter="1.35"/>
+<pad name="1" x="1.4" y="8.52" drill="0.85" diameter="1.25"/>
+<pad name="2" x="-1.4" y="8.52" drill="0.85" diameter="1.25"/>
 <wire x1="-6" y1="0" x2="6" y2="0" width="0.2032" layer="51"/>
 <text x="5.55" y="-0.23" size="0.2" layer="51" font="vector" align="center">PCB EDGE</text>
 <wire x1="-4.6" y1="-3.73" x2="4.6" y2="-3.73" width="0.1" layer="51"/>

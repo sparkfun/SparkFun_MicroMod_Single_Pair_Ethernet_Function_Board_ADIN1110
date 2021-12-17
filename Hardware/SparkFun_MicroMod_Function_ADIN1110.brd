@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top/Horz" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -42,7 +42,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -79,7 +79,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="no" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="no"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="no"/>
 <layer number="103" name="tMap" color="7" fill="1" visible="no" active="no"/>
@@ -197,7 +197,7 @@
 <plain>
 <wire x1="28.925" y1="0" x2="22.225" y2="0" width="0.2032" layer="20"/>
 <text x="0.9686" y="58.713278125" size="1.27" layer="16" font="vector" ratio="20" rot="SMR90" align="center">v01</text>
-<text x="19.05" y="-26.67" size="1.778" layer="51" font="vector" ratio="10">Pete Lewis</text>
+<text x="19.95" y="-14.77" size="1.778" layer="51" font="vector" ratio="10">Pete Lewis</text>
 <wire x1="21.025" y1="0" x2="9.075" y2="0" width="0.2032" layer="20"/>
 <wire x1="28.925" y1="0" x2="28.925" y2="3.5" width="0.2032" layer="20"/>
 <wire x1="28.925" y1="3.5" x2="29.4" y2="4" width="0.2032" layer="20" curve="-90"/>
@@ -215,7 +215,7 @@
 <text x="46.99" y="45.72" size="1.778" layer="51" font="vector" ratio="15">4-Layer</text>
 <text x="46.99" y="43.18" size="1.778" layer="51" font="vector" ratio="15">Beveled Edge</text>
 <text x="46.99" y="40.64" size="1.778" layer="51" font="vector" ratio="15">ENIG Finish</text>
-<text x="3.81" y="-27.559" size="1.778" layer="51" font="vector" ratio="10" align="top-left">Based off the MicroMod PoE Ethernet
+<text x="4.71" y="-15.659" size="1.778" layer="51" font="vector" ratio="10" align="top-left">Based off the MicroMod PoE Ethernet
 function board by N. Seidle</text>
 <text x="0.670559375" y="6.982459375" size="0.8128" layer="1" font="vector" ratio="25">1</text>
 <text x="1.432559375" y="6.982459375" size="0.8128" layer="2" font="vector" ratio="25">2</text>
@@ -225,15 +225,16 @@ function board by N. Seidle</text>
 <wire x1="14.56181875" y1="54.841140625" x2="23.154640625" y2="54.841140625" width="6.6802" layer="48"/>
 <wire x1="23.154640625" y1="54.841140625" x2="23.154640625" y2="65.89268125" width="6.6802" layer="48"/>
 <dimension x1="0" y1="0" x2="0" y2="65" x3="-12.0523" y3="32.5" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
-<text x="7.62" y="-16.51" size="1.778" layer="47" font="vector" ratio="15">UNITS IN INCHES</text>
-<dimension x1="0" y1="65" x2="38" y2="65" x3="19" y3="89.308940625" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
-<dimension x1="0" y1="65" x2="19" y2="65" x3="9.5" y3="70.65771875" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
-<dimension x1="0" y1="65" x2="35.560040625" y2="63.0764" x3="17.78001875" y3="85.6615" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
-<dimension x1="0" y1="65" x2="33.020040625" y2="63.0764" x3="16.51001875" y3="82.4357" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
-<dimension x1="0" y1="65" x2="30.480040625" y2="63.0764" x3="15.24001875" y3="78.729840625" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
-<dimension x1="0" y1="65" x2="27.940040625" y2="63.0764" x3="13.97001875" y3="74.983340625" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<text x="8.42" y="-5.01" size="1.778" layer="47" font="vector" ratio="15">UNITS IN INCHES</text>
+<dimension x1="0" y1="65" x2="38" y2="65" x3="19" y3="98.198940625" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="0" y1="65" x2="19" y2="65" x3="9.5" y3="74.46771875" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="0" y1="65" x2="35.560040625" y2="63.0764" x3="17.78001875" y3="94.5515" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="0" y1="65" x2="33.020040625" y2="63.0764" x3="16.51001875" y3="91.3257" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="0" y1="65" x2="30.480040625" y2="63.0764" x3="15.24001875" y3="87.619840625" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="0" y1="65" x2="27.940040625" y2="63.0764" x3="13.97001875" y3="83.873340625" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
 <dimension x1="0" y1="0" x2="0.027940625" y2="44.071540625" x3="-7.4549" y3="22.03576875" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="0" y1="0" x2="0" y2="4" x3="-2.9972" y3="2" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="14.4018" y1="68.7324" x2="23.5966" y2="68.7324" x3="18.9992" y3="79.1972" textsize="1.778" textratio="15" layer="100" dtype="horizontal" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -8517,12 +8518,12 @@ Used as a test point connection for pogo pins or other debugging tools.
 <text x="-2.5" y="-4.15" size="0.6096" layer="27" font="vector" ratio="20" distance="15">&gt;Value</text>
 </package>
 <package name="T1_INDUSTRIAL_JACK_AH_IP20">
-<pad name="S1" x="-3.8" y="11.12" drill="0.9" diameter="1.35"/>
-<pad name="S2" x="3.8" y="11.12" drill="0.9" diameter="1.35"/>
-<pad name="S3" x="4.45" y="1.37" drill="0.9" diameter="1.35"/>
-<pad name="S4" x="-4.45" y="1.37" drill="0.9" diameter="1.35"/>
-<pad name="1" x="1.4" y="8.52" drill="0.8" diameter="1.25"/>
-<pad name="2" x="-1.4" y="8.52" drill="0.8" diameter="1.25"/>
+<pad name="S1" x="-3.8" y="11.12" drill="0.95" diameter="1.35"/>
+<pad name="S2" x="3.8" y="11.12" drill="0.95" diameter="1.35"/>
+<pad name="S3" x="4.45" y="1.37" drill="0.95" diameter="1.35"/>
+<pad name="S4" x="-4.45" y="1.37" drill="0.95" diameter="1.35"/>
+<pad name="1" x="1.4" y="8.52" drill="0.85" diameter="1.25"/>
+<pad name="2" x="-1.4" y="8.52" drill="0.85" diameter="1.25"/>
 <wire x1="-6" y1="0" x2="6" y2="0" width="0.2032" layer="51"/>
 <text x="5.55" y="-0.23" size="0.2" layer="51" font="vector" align="center">PCB EDGE</text>
 <wire x1="-4.6" y1="-3.73" x2="4.6" y2="-3.73" width="0.1" layer="51"/>
@@ -9096,9 +9097,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="PROD_ID" value="VREG-12457" x="10.555" y="13.53" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="9.77138125" y="15.229840625" size="0.6096" layer="27" ratio="20"/>
 </element>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="-7.62" y="-26.67" smashed="yes">
-<attribute name="DESIGNER" value="" x="-7.62" y="-26.67" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="REV" value="" x="-7.62" y="-26.67" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="-6.72" y="-14.77" smashed="yes">
+<attribute name="DESIGNER" value="" x="-6.72" y="-14.77" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="REV" value="" x="-6.72" y="-14.77" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="C9" library="SparkFun-Capacitors" package="0603" value="1.0uF" x="13.668" y="13.54" smashed="yes" rot="R270">
 <attribute name="NAME" x="14.43" y="13.54" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -9478,13 +9479,17 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <vertex x="22.46121875" y="50.835559375"/>
 <vertex x="23.53818125" y="50.835559375"/>
 <vertex x="23.53818125" y="52.49903125"/>
-<vertex x="38" y="52.49903125"/>
+<vertex x="26.7" y="52.49903125"/>
+<vertex x="26.7" y="65"/>
+<vertex x="38" y="65"/>
 <vertex x="38" y="0"/>
 </polygon>
 <polygon width="0.2032" layer="16" isolate="0.2032">
 <vertex x="0" y="0"/>
 <vertex x="38" y="0"/>
-<vertex x="38" y="52.499965625"/>
+<vertex x="38" y="65"/>
+<vertex x="26.7" y="65"/>
+<vertex x="26.7" y="52.498996875"/>
 <vertex x="23.53818125" y="52.498996875"/>
 <vertex x="23.53818125" y="50.83048125"/>
 <vertex x="22.47138125" y="50.83048125"/>
@@ -9564,8 +9569,6 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <contactref element="SHLD" pad="1"/>
 <via x="2.3" y="51.5" extent="1-16" drill="0.3048"/>
 <wire x1="35.560040625" y1="63.9534" x2="35.6666" y2="63.9534" width="0.2032" layer="1"/>
-<wire x1="36.67" y1="62.95" x2="36.67" y2="52.2" width="0.2032" layer="1"/>
-<wire x1="35.6666" y1="63.9534" x2="36.67" y2="62.95" width="0.2032" layer="1"/>
 <via x="29.161740625" y="49.44871875" extent="1-16" drill="0.3048"/>
 <via x="24.716740625" y="51.86171875" extent="1-16" drill="0.3048"/>
 <via x="17.436459375" y="3.053003125" extent="1-16" drill="0.3048"/>
@@ -9590,6 +9593,11 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <via x="13.186621875" y="25.9959625" extent="1-16" drill="0.3048"/>
 <via x="27.94501875" y="30.475740625" extent="1-16" drill="0.3048"/>
 <via x="25.369459375" y="30.506221875" extent="1-16" drill="0.3048"/>
+<via x="37.06368125" y="62.17665625" extent="1-16" drill="0.3048"/>
+<via x="27.03068125" y="62.93865625" extent="1-16" drill="0.3048"/>
+<via x="36.80968125" y="56.84265625" extent="1-16" drill="0.3048"/>
+<via x="27.03068125" y="56.71565625" extent="1-16" drill="0.3048"/>
+<via x="32.36468125" y="56.71565625" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U2" pad="8"/>
