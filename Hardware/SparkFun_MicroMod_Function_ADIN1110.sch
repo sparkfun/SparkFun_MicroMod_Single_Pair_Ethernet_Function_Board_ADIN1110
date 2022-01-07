@@ -20627,6 +20627,18 @@ Used in manufacturing several products at SparkFun.
 </technology>
 </technologies>
 </device>
+<device name="-0603-WE" package="LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-16514" constant="no"/>
+<attribute name="VALUE" value="Yellow" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="LED-RED" prefix="D" uservalue="yes">
@@ -20692,6 +20704,18 @@ Used in manufacturing several products at SparkFun.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-09912" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-WE" package="LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-16511" constant="no"/>
+<attribute name="VALUE" value="Red" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -20778,6 +20802,18 @@ Used in manufacturing several products at SparkFun.
 </technology>
 </technologies>
 </device>
+<device name="-0603-WE" package="LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-16512" constant="no"/>
+<attribute name="VALUE" value="Green" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="LED-BLUE" prefix="D" uservalue="yes">
@@ -20830,6 +20866,18 @@ Used in manufacturing several products at SparkFun.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-09911" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-WE" package="LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-16513" constant="no"/>
+<attribute name="VALUE" value="Blue" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -21604,7 +21652,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="CRYSTAL-SMD-2.0X1.6MM">
+<package name="CRYSTAL-SMD-2.0X1.6MM-WE">
 <description>&lt;h3&gt;2.0 x 1.6 mm Crystal&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/timingdevice/crystalu/p79e.ashx"&gt;Example Datasheet&lt;/a&gt; (XRCGB_F_P)&lt;/p&gt;</description>
 <wire x1="-1" y1="0.7" x2="-1" y2="-0.7" width="0.127" layer="51"/>
@@ -21659,16 +21707,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.9" y="0.45"/>
 <vertex x="0.9" y="0.2"/>
 </polygon>
-<polygon width="0" layer="51">
-<vertex x="0.506065625" y="-0.2"/>
-<vertex x="-0.4" y="0.306065625"/>
-<vertex x="-0.506065625" y="0.2"/>
-<vertex x="0.4" y="-0.306065625"/>
-</polygon>
-<smd name="4" x="-0.675" y="0.5" dx="0.75" dy="0.7" layer="1"/>
-<smd name="3" x="0.675" y="0.5" dx="0.75" dy="0.7" layer="1" rot="R180"/>
-<smd name="2" x="0.675" y="-0.5" dx="0.75" dy="0.7" layer="1" rot="R180"/>
-<smd name="1" x="-0.675" y="-0.5" dx="0.75" dy="0.7" layer="1"/>
+<smd name="4" x="-0.675" y="0.5" dx="0.381" dy="0.381" layer="1" stop="no"/>
+<smd name="3" x="0.675" y="0.5" dx="0.75" dy="0.7" layer="1" roundness="20" rot="R180"/>
+<smd name="2" x="0.675" y="-0.5" dx="0.75" dy="0.7" layer="1" roundness="20" rot="R180"/>
+<smd name="1" x="-0.675" y="-0.5" dx="0.75" dy="0.7" layer="1" roundness="20"/>
 <wire x1="-0.85" y1="0.97" x2="-1.17" y2="0.97" width="0.2032" layer="21"/>
 <wire x1="-1.17" y1="0.65" x2="-1.17" y2="0.97" width="0.2032" layer="21"/>
 <wire x1="0.85" y1="-0.97" x2="1.17" y2="-0.97" width="0.2032" layer="21"/>
@@ -21681,11 +21723,26 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0.19" y1="0.97" x2="-0.19" y2="0.97" width="0.2032" layer="21"/>
 <text x="0" y="1.1" size="0.6096" layer="25" ratio="20" align="bottom-center">&gt;Name</text>
 <text x="0" y="-1.1" size="0.6096" layer="27" ratio="20" align="top-center">&gt;Value</text>
+<polygon width="0.1778" layer="1">
+<vertex x="-0.388625" y="0.759459375"/>
+<vertex x="-0.960121875" y="0.759459375"/>
+<vertex x="-0.960121875" y="0.238759375"/>
+<vertex x="-0.652778125" y="0.2387625"/>
+<vertex x="-0.388621875" y="0.4699"/>
+</polygon>
+<circle x="-1.018540625" y="-1.31318125" radius="0.086209375" width="0.2032" layer="21"/>
+<polygon width="0.1778" layer="29">
+<vertex x="-0.30988125" y="0.84581875"/>
+<vertex x="-1.05664375" y="0.843278125"/>
+<vertex x="-1.0515625" y="0.142240625"/>
+<vertex x="-0.642615625" y="0.14224375"/>
+<vertex x="-0.297178125" y="0.464821875"/>
+</polygon>
 </package>
 </packages>
 <symbols>
-<symbol name="CRYSTAL">
-<description>&lt;h3&gt;Crystal (no ground pin)&lt;/h3&gt;</description>
+<symbol name="CRYSTAL-GND">
+<description>&lt;h3&gt;Crystal with Ground pin&lt;/h3&gt;</description>
 <wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
 <wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
@@ -21693,30 +21750,34 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
 <wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
 <wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
-<text x="0" y="2.032" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.032" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="0" width="0.254" layer="94"/>
+<text x="1.524" y="-1.524" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
 <text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
 <text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
 <pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<wire x1="-1.016" y1="0" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="-5.08" visible="off" length="short" direction="pwr" rot="R90"/>
+<wire x1="0" y1="-2.8" x2="0" y2="-1.6" width="0.1524" layer="94"/>
+<text x="-1.27" y="-1.524" size="1.778" layer="95" font="vector" align="top-right">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CRYSTAL-25MHZ" prefix="Y" uservalue="yes">
+<deviceset name="CRYSTAL-25MHZ-WE" prefix="Y" uservalue="yes">
 <description>&lt;h3&gt;25MHz Crystal&lt;/h3&gt;</description>
 <gates>
-<gate name="Y1" symbol="CRYSTAL" x="0" y="0"/>
+<gate name="G$1" symbol="CRYSTAL-GND" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-SMD-2.0X1.6MM" package="CRYSTAL-SMD-2.0X1.6MM">
+<device name="-SMD-2.0X1.6MM-WE" package="CRYSTAL-SMD-2.0X1.6MM-WE">
 <connects>
-<connect gate="Y1" pin="1" pad="1"/>
-<connect gate="Y1" pin="2" pad="3"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2 4"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="XTAL-16235" constant="no"/>
+<attribute name="PROD_ID" value="XTAL-16515" constant="no"/>
 <attribute name="VALUE" value="25MHz" constant="no"/>
 </technology>
 </technologies>
@@ -23769,7 +23830,7 @@ Out</text>
 <part name="C4" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-10%-X7R-WE" value="0.1uF"/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SPECIAL_INSTRUCTIONS" device="-ORDERING"/>
-<part name="Y1" library="SparkFun-Clocks" deviceset="CRYSTAL-25MHZ" device="-SMD-2.0X1.6MM" value="25MHz"/>
+<part name="Y1" library="SparkFun-Clocks" deviceset="CRYSTAL-25MHZ-WE" device="-SMD-2.0X1.6MM-WE" value="25MHz"/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="10PF" device="-0603-50V-5%-C0G-WE" value="10pF"/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="10PF" device="-0603-50V-5%-C0G-WE" value="10pF"/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -23786,7 +23847,7 @@ Out</text>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-BSS138" value="220mA/50V/3.5Ω"/>
 <part name="LED-PWR" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
 <part name="R9" library="SparkFun-Resistors" deviceset="1KOHM" device="-0402T-1/16W-1%" value="1k"/>
-<part name="PWR" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="Red"/>
+<part name="PWR" library="SparkFun-LED" deviceset="LED-RED" device="-0603-WE" value="Red"/>
 <part name="GND33" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="TP1" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4"/>
@@ -23822,7 +23883,7 @@ Out</text>
 <part name="GND44" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C19" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
 <part name="GND45" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="LED_0" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="Green"/>
+<part name="LED_0" library="SparkFun-LED" deviceset="LED-GREEN" device="-0603-WE" value="Green"/>
 <part name="R11" library="SparkFun-Resistors" deviceset="1KOHM" device="-0402T-1/16W-1%" value="1k"/>
 <part name="SWPD" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value=""/>
 <part name="TX2P4" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value=""/>
@@ -23846,10 +23907,10 @@ Out</text>
 <part name="R18" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0402T-1/16W-1%" value="4.7k"/>
 <part name="SUPPLY30" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY31" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="LED_1" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow"/>
+<part name="LED_1" library="SparkFun-LED" deviceset="LED-YELLOW" device="-0603-WE" value="Yellow"/>
 <part name="R21" library="SparkFun-Resistors" deviceset="1KOHM" device="-0402T-1/16W-1%" value="1k"/>
 <part name="R19" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0402T-1/16W-1%" value="4.7k"/>
-<part name="LINK_ST" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="Blue"/>
+<part name="LINK_ST" library="SparkFun-LED" deviceset="LED-BLUE" device="-0603-WE" value="Blue"/>
 <part name="GND46" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND47" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402T" value="10.2Ω"/>
@@ -23880,6 +23941,7 @@ Out</text>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R25" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0402T-1/16W-1%" value="4.7k"/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="GND15" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23887,7 +23949,7 @@ Out</text>
 <wire x1="162.56" y1="137.16" x2="162.56" y2="0" width="0.2032" layer="97" style="longdash"/>
 <text x="30.734" y="126.746" size="2.54" layer="94" font="vector" ratio="12" align="center">MicroMod Function Connector</text>
 <text x="348.996" y="11.684" size="1.778" layer="94" font="vector">Pete Lewis</text>
-<text x="421.894" y="6.096" size="2.54" layer="94" font="vector">v01</text>
+<text x="421.894" y="6.096" size="2.54" layer="94" font="vector">v10</text>
 <text x="45.72" y="271.78" size="2.54" layer="94" font="vector" ratio="12" align="center">ADIN1110 BASE10-T1L ETHERNET MAC-PHY</text>
 <text x="317.754" y="124.206" size="2.54" layer="94" font="vector" ratio="12" align="center">Power Enable</text>
 <wire x1="294.64" y1="137.16" x2="337.82" y2="137.16" width="0.2032" layer="97" style="longdash"/>
@@ -23998,8 +24060,8 @@ disable each LED</text>
 <attribute name="VALUE" x="17.78" y="40.386" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="LOGO2" gate="G$1" x="408.94" y="22.86" smashed="yes"/>
-<instance part="Y1" gate="Y1" x="58.42" y="182.88" smashed="yes">
-<attribute name="NAME" x="58.42" y="178.816" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<instance part="Y1" gate="G$1" x="58.42" y="182.88" smashed="yes">
+<attribute name="NAME" x="60.198" y="178.816" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="58.42" y="185.166" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
 <instance part="C5" gate="G$1" x="50.8" y="175.26" smashed="yes">
@@ -24394,6 +24456,9 @@ disable each LED</text>
 <instance part="SUPPLY3" gate="G$1" x="134.62" y="71.12" smashed="yes">
 <attribute name="VALUE" x="134.62" y="73.914" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
+<instance part="GND15" gate="1" x="58.42" y="167.64" smashed="yes">
+<attribute name="VALUE" x="58.42" y="167.386" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -24574,6 +24639,11 @@ disable each LED</text>
 <pinref part="C20" gate="C1" pin="2"/>
 <wire x1="256.54" y1="160.02" x2="256.54" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="GND14" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="Y1" gate="G$1" pin="GND"/>
+<pinref part="GND15" gate="1" pin="GND"/>
+<wire x1="58.42" y1="177.8" x2="58.42" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -24918,7 +24988,7 @@ disable each LED</text>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="187.96" x2="50.8" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="187.96" x2="50.8" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="Y1" gate="Y1" pin="1"/>
+<pinref part="Y1" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="182.88" x2="50.8" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="182.88" x2="50.8" y2="182.88" width="0.1524" layer="91"/>
 <junction x="50.8" y="182.88"/>
@@ -24928,7 +24998,7 @@ disable each LED</text>
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="180.34" x2="66.04" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="Y1" gate="Y1" pin="2"/>
+<pinref part="Y1" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="182.88" x2="66.04" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="182.88" x2="66.04" y2="182.88" width="0.1524" layer="91"/>
 <junction x="66.04" y="182.88"/>
