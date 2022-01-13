@@ -6,11 +6,11 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top/Horz" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom/Vert" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -9385,10 +9385,10 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="PROD_ID" value="RES-07863" x="16.522696875" y="48.595278125" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" value="100" x="15.10791875" y="48.493678125" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="C21" library="SparkFun-Capacitors" package="0402-TIGHT" value="0.1uF" x="23.2816375" y="51.821078125" smashed="yes">
-<attribute name="NAME" x="23.2816375" y="52.383078125" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-16431" x="23.2816375" y="51.821078125" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="24.78531875" y="51.401315625" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="C21" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="23.7896375" y="51.821078125" smashed="yes">
+<attribute name="NAME" x="23.7896375" y="52.383078125" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-16523" x="23.7896375" y="51.821078125" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="25.29331875" y="51.401315625" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="C22" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="17.421859375" y="46.23054375" smashed="yes" rot="R180">
 <attribute name="NAME" x="17.421859375" y="45.46854375" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
@@ -9486,8 +9486,8 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <vertex x="20.40381875" y="46.675040625"/>
 <vertex x="22.46121875" y="46.675040625"/>
 <vertex x="22.46121875" y="50.835559375"/>
-<vertex x="23.53818125" y="50.835559375"/>
-<vertex x="23.53818125" y="52.49903125"/>
+<vertex x="23.89378125" y="50.835559375"/>
+<vertex x="23.89378125" y="52.49903125"/>
 <vertex x="26.7" y="52.49903125"/>
 <vertex x="26.7" y="65"/>
 <vertex x="38" y="65"/>
@@ -9499,8 +9499,8 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <vertex x="38" y="65"/>
 <vertex x="26.7" y="65"/>
 <vertex x="26.7" y="52.498996875"/>
-<vertex x="23.53818125" y="52.498996875"/>
-<vertex x="23.53818125" y="50.83048125"/>
+<vertex x="23.89378125" y="52.498996875"/>
+<vertex x="23.89378125" y="50.83048125"/>
 <vertex x="22.47138125" y="50.83048125"/>
 <vertex x="22.47138125" y="46.64201875"/>
 <vertex x="20.41398125" y="46.64201875"/>
@@ -9558,9 +9558,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <vertex x="20.5" y="44"/>
 <vertex x="20.5" y="46.5"/>
 <vertex x="22.5" y="46.5"/>
-<vertex x="22.5" y="51"/>
-<vertex x="23.5" y="51"/>
-<vertex x="23.5" y="52.5"/>
+<vertex x="22.5" y="50.8222"/>
+<vertex x="23.881" y="50.8222"/>
+<vertex x="23.881" y="52.5"/>
 <vertex x="38" y="52.5"/>
 <vertex x="38" y="0"/>
 </polygon>
@@ -9579,7 +9579,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <via x="2.3" y="51.5" extent="1-16" drill="0.3048"/>
 <wire x1="35.560040625" y1="63.9534" x2="35.6666" y2="63.9534" width="0.2032" layer="1"/>
 <via x="29.161740625" y="49.44871875" extent="1-16" drill="0.3048"/>
-<via x="24.716740625" y="51.86171875" extent="1-16" drill="0.3048"/>
+<via x="25.859740625" y="51.86171875" extent="1-16" drill="0.3048"/>
 <via x="17.436459375" y="3.053003125" extent="1-16" drill="0.3048"/>
 <via x="28.316459375" y="3.023003125" extent="1-16" drill="0.3048"/>
 <via x="9.686459375" y="3.413003125" extent="1-16" drill="0.3048"/>
@@ -9692,9 +9692,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <vertex x="20.5" y="44"/>
 <vertex x="20.5" y="46.5"/>
 <vertex x="22.5" y="46.5"/>
-<vertex x="22.5" y="51"/>
-<vertex x="23.5" y="51"/>
-<vertex x="23.5" y="52.5"/>
+<vertex x="22.5" y="50.8222"/>
+<vertex x="23.881" y="50.8222"/>
+<vertex x="23.881" y="52.5"/>
 <vertex x="38" y="52.5"/>
 <vertex x="38" y="0"/>
 </polygon>
@@ -10343,7 +10343,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <signal name="N$3">
 <contactref element="T1" pad="5"/>
 <contactref element="C21" pad="1"/>
-<wire x1="22.7816375" y1="51.821078125" x2="21.45528125" y2="51.821078125" width="0.4064" layer="1"/>
+<wire x1="22.9396375" y1="51.821078125" x2="21.45528125" y2="51.821078125" width="0.4064" layer="1"/>
 <wire x1="21.45528125" y1="51.821078125" x2="21.44901875" y2="51.827340625" width="0.4064" layer="1"/>
 </signal>
 <signal name="DA-">
