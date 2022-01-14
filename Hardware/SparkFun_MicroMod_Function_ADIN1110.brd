@@ -6,11 +6,11 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top/Horz" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom/Vert" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -9340,7 +9340,10 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$4" library="output" package="ADIN11100" value="" x="18.662" y="18.566" smashed="yes"/>
 <element name="U$5" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="18.542" y="25.146" smashed="yes"/>
 <element name="U$1" library="output" package="#RESET#0" value="" x="28.702" y="44.069" smashed="yes" rot="R90"/>
-<element name="J1" library="ADIN1110" package="T1_INDUSTRIAL_JACK_AH_IP20" value="T1_INDUSTRIAL" x="19" y="65" smashed="yes" rot="R180"/>
+<element name="J1" library="ADIN1110" package="T1_INDUSTRIAL_JACK_AH_IP20" value="IP20(RJ50)" x="19" y="65" smashed="yes" rot="R180">
+<attribute name="PROD_ID" value="CONN-16501" x="19" y="65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="IP20(RJ50)" x="19" y="65" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="SHLD" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39288/1" value="" x="3.5" y="53.5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="4.643" y="53.5" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="2.357" y="53.5" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>

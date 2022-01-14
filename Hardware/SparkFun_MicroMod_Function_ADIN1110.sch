@@ -22553,7 +22553,10 @@ reach, 10 Mbps single pair Ethernet (SPE).</description>
 <connect gate="G$1" pin="SHIELD" pad="S1 S2 S3 S4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-16501" constant="no"/>
+<attribute name="VALUE" value="IP20(RJ50)" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -23919,7 +23922,7 @@ Out</text>
 <part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402T" value="5.1Ω"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.22UF" device="-0603-50V-10%" value="0.22uF"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.22UF" device="-0603-50V-10%" value="0.22uF"/>
-<part name="J1" library="ADIN1110" deviceset="T1_INDUSTRIAL_JACK_AH_IP20" device="" value="T1_INDUSTRIAL"/>
+<part name="J1" library="ADIN1110" deviceset="T1_INDUSTRIAL_JACK_AH_IP20" device="" value="IP20(RJ50)"/>
 <part name="SHLD" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39288/1" value=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
