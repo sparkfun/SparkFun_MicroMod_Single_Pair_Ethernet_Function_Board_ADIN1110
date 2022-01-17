@@ -9356,20 +9356,24 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="PROD_ID" value="DIO-08575" x="27.940040625" y="63.0764" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="28.575040625" y="63.0764" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="R5" library="SparkFun-Resistors" package="0402-TIGHT" value="10.2Ω" x="20.812759375" y="39.8145" smashed="yes">
+<element name="R5" library="SparkFun-Resistors" package="0402-TIGHT" value="10Ω" x="20.812759375" y="39.8145" smashed="yes">
 <attribute name="NAME" x="20.812759375" y="40.3765" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-16072" x="20.812759375" y="39.8145" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="22.89301875" y="40.1542" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R6" library="SparkFun-Resistors" package="0402-TIGHT" value="10.2Ω" x="20.289521875" y="38.89501875" smashed="yes">
+<element name="R6" library="SparkFun-Resistors" package="0402-TIGHT" value="10Ω" x="20.289521875" y="38.89501875" smashed="yes">
 <attribute name="NAME" x="20.289521875" y="39.45701875" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-16072" x="20.289521875" y="38.89501875" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="22.308821875" y="39.1661375" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R4" library="SparkFun-Resistors" package="0402-TIGHT" value="5.1Ω" x="22.501859375" y="42.4459375" smashed="yes" rot="R180">
+<element name="R4" library="SparkFun-Resistors" package="0402-TIGHT" value="4.7Ω" x="22.501859375" y="42.4459375" smashed="yes" rot="R180">
 <attribute name="NAME" x="22.501859375" y="41.8839375" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-16312" x="22.501859375" y="42.4459375" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="24.462740625" y="42.1697375" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="R3" library="SparkFun-Resistors" package="0402-TIGHT" value="5.1Ω" x="18.54961875" y="42.420540625" smashed="yes" rot="R180">
+<element name="R3" library="SparkFun-Resistors" package="0402-TIGHT" value="4.7Ω" x="18.54961875" y="42.420540625" smashed="yes" rot="R180">
 <attribute name="NAME" x="18.54961875" y="41.858540625" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-16312" x="18.54961875" y="42.420540625" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="16.624296875" y="42.1672" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="C2" library="SparkFun-Capacitors" package="0603" value="0.22uF" x="18.7934625" y="43.6981625" smashed="yes">
@@ -9742,20 +9746,24 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="PROD_ID" value="DIO-08575" x="66.44898125" y="63.0764" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="67.08398125" y="63.0764" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="R44" library="SparkFun-Resistors" package="0402-TIGHT" value="10.2Ω" x="59.3217" y="39.8145" smashed="yes">
+<element name="R44" library="SparkFun-Resistors" package="0402-TIGHT" value="10Ω" x="59.3217" y="39.8145" smashed="yes">
 <attribute name="NAME" x="59.3217" y="40.3765" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-16072" x="59.3217" y="39.8145" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="61.401959375" y="40.1542" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R45" library="SparkFun-Resistors" package="0402-TIGHT" value="10.2Ω" x="58.7984625" y="38.89501875" smashed="yes">
+<element name="R45" library="SparkFun-Resistors" package="0402-TIGHT" value="10Ω" x="58.7984625" y="38.89501875" smashed="yes">
 <attribute name="NAME" x="58.7984625" y="39.45701875" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-16072" x="58.7984625" y="38.89501875" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="60.8177625" y="39.1661375" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R46" library="SparkFun-Resistors" package="0402-TIGHT" value="5.1Ω" x="61.0108" y="42.4459375" smashed="yes" rot="R180">
+<element name="R46" library="SparkFun-Resistors" package="0402-TIGHT" value="4.7Ω" x="61.0108" y="42.4459375" smashed="yes" rot="R180">
 <attribute name="NAME" x="61.0108" y="41.8839375" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-16312" x="61.0108" y="42.4459375" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="62.97168125" y="42.1697375" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="R47" library="SparkFun-Resistors" package="0402-TIGHT" value="5.1Ω" x="57.058559375" y="42.420540625" smashed="yes" rot="R180">
+<element name="R47" library="SparkFun-Resistors" package="0402-TIGHT" value="4.7Ω" x="57.058559375" y="42.420540625" smashed="yes" rot="R180">
 <attribute name="NAME" x="57.058559375" y="41.858540625" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-16312" x="57.058559375" y="42.420540625" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="55.1332375" y="42.1672" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="C39" library="SparkFun-Capacitors" package="0603" value="0.22uF" x="57.302403125" y="43.6981625" smashed="yes">
@@ -10128,20 +10136,24 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="PROD_ID" value="DIO-08575" x="104.95538125" y="63.0764" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="105.59038125" y="63.0764" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="R69" library="SparkFun-Resistors" package="0402-TIGHT" value="10.2Ω" x="97.8281" y="39.8145" smashed="yes">
+<element name="R69" library="SparkFun-Resistors" package="0402-TIGHT" value="10Ω" x="97.8281" y="39.8145" smashed="yes">
 <attribute name="NAME" x="97.8281" y="40.3765" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-16072" x="97.8281" y="39.8145" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="99.908359375" y="40.1542" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R70" library="SparkFun-Resistors" package="0402-TIGHT" value="10.2Ω" x="97.3048625" y="38.89501875" smashed="yes">
+<element name="R70" library="SparkFun-Resistors" package="0402-TIGHT" value="10Ω" x="97.3048625" y="38.89501875" smashed="yes">
 <attribute name="NAME" x="97.3048625" y="39.45701875" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-16072" x="97.3048625" y="38.89501875" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="99.3241625" y="39.1661375" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R71" library="SparkFun-Resistors" package="0402-TIGHT" value="5.1Ω" x="99.5172" y="42.4459375" smashed="yes" rot="R180">
+<element name="R71" library="SparkFun-Resistors" package="0402-TIGHT" value="4.7Ω" x="99.5172" y="42.4459375" smashed="yes" rot="R180">
 <attribute name="NAME" x="99.5172" y="41.8839375" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-16312" x="99.5172" y="42.4459375" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="101.47808125" y="42.1697375" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="R72" library="SparkFun-Resistors" package="0402-TIGHT" value="5.1Ω" x="95.564959375" y="42.420540625" smashed="yes" rot="R180">
+<element name="R72" library="SparkFun-Resistors" package="0402-TIGHT" value="4.7Ω" x="95.564959375" y="42.420540625" smashed="yes" rot="R180">
 <attribute name="NAME" x="95.564959375" y="41.858540625" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-16312" x="95.564959375" y="42.420540625" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="93.6396375" y="42.1672" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="C61" library="SparkFun-Capacitors" package="0603" value="0.22uF" x="95.808803125" y="43.6981625" smashed="yes">
