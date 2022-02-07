@@ -935,8 +935,8 @@ Series</description>
 <devices>
 <device name="_1.0X1.2MM" package="WE_TVS_1.0X1.2MM">
 <connects>
-<connect gate="U1" pin="1" pad="1"/>
-<connect gate="U1" pin="2" pad="2"/>
+<connect gate="U1" pin="1" pad="1 6"/>
+<connect gate="U1" pin="2" pad="2 5"/>
 <connect gate="U1" pin="3" pad="3"/>
 </connects>
 <technologies>
