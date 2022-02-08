@@ -19531,6 +19531,18 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </technology>
 </technologies>
 </device>
+<device name="-0805-100V-10%-X7S" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-16570" constant="no"/>
+<attribute name="VALUE" value="470nF" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="0.1UF" prefix="C">
@@ -24083,8 +24095,8 @@ Out</text>
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C20" library="SparkFun-Capacitors" deviceset="1.0NF/1000PF" device="-1206-2KV-10%-X7R-WORTH-ELEKRONIK" value="1.0nF/2kV"/>
 <part name="R23" library="SparkFun-Resistors" deviceset="100OHM" device="-0603-1/10W-1%" value="100Ω"/>
-<part name="C21" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-50V-10%-X7R-WE" value="0.1uF"/>
-<part name="C22" library="SparkFun-Capacitors" deviceset="470NF" device="-0603-10V-10%-X5R" value="470nF"/>
+<part name="C21" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-50V-10%-X7R-WE" value="0.1uF/50V"/>
+<part name="C22" library="SparkFun-Capacitors" deviceset="470NF" device="-0805-100V-10%-X7S" value="470nF/100V"/>
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="LED-LINK" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
 <part name="LED-1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
@@ -24581,7 +24593,7 @@ disable each LED</text>
 </instance>
 <instance part="C21" gate="G$1" x="254" y="172.72" smashed="yes">
 <attribute name="NAME" x="248.92" y="175.641" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="247.396" y="170.307" size="1.778" layer="96" font="vector"/>
+<attribute name="VALUE" x="241.046" y="170.307" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="C22" gate="G$1" x="287.02" y="193.04" smashed="yes">
 <attribute name="NAME" x="288.544" y="195.961" size="1.778" layer="95" font="vector"/>
