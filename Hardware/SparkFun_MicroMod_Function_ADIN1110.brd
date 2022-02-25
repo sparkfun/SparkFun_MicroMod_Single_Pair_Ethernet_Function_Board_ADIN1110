@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top/Horz" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -42,7 +42,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -79,7 +79,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="yes"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="no"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="no"/>
 <layer number="103" name="tMap" color="7" fill="1" visible="no" active="no"/>
@@ -9613,12 +9613,10 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <vertex x="0" y="0"/>
 <vertex x="0" y="52.5"/>
 <vertex x="15" y="52.5"/>
-<vertex x="15" y="44"/>
-<vertex x="20.5" y="44"/>
-<vertex x="20.5" y="46.5"/>
-<vertex x="22.5" y="46.5"/>
-<vertex x="22.5" y="50.8222"/>
-<vertex x="23.881" y="50.8222"/>
+<vertex x="15" y="41.3965"/>
+<vertex x="22.119" y="41.3965"/>
+<vertex x="22.119" y="42.3767"/>
+<vertex x="23.881" y="42.3767"/>
 <vertex x="23.881" y="52.5"/>
 <vertex x="38" y="52.5"/>
 <vertex x="38" y="0"/>
@@ -9736,12 +9734,10 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <vertex x="0" y="0"/>
 <vertex x="0" y="52.5"/>
 <vertex x="15" y="52.5"/>
-<vertex x="15" y="44"/>
-<vertex x="20.5" y="44"/>
-<vertex x="20.5" y="46.5"/>
-<vertex x="22.5" y="46.5"/>
-<vertex x="22.5" y="50.8222"/>
-<vertex x="23.881" y="50.8222"/>
+<vertex x="15" y="41.3965"/>
+<vertex x="22.119" y="41.3965"/>
+<vertex x="22.119" y="42.3767"/>
+<vertex x="23.881" y="42.3767"/>
 <vertex x="23.881" y="52.5"/>
 <vertex x="38" y="52.5"/>
 <vertex x="38" y="0"/>
