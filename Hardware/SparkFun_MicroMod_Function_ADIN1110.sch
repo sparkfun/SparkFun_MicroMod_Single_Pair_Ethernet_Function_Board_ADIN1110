@@ -25021,7 +25021,7 @@ disable each LED</text>
 <pinref part="R28" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="SPI_COPI" class="0">
+<net name="SPI_PICO" class="0">
 <segment>
 <wire x1="114.3" y1="99.06" x2="116.84" y2="99.06" width="0.1524" layer="91"/>
 <label x="116.84" y="99.06" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -25038,7 +25038,7 @@ disable each LED</text>
 <pinref part="COPI" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="SPI_CIPO/SPI_CFG0" class="0">
+<net name="SPI_POCI/SPI_CFG0" class="0">
 <segment>
 <wire x1="114.3" y1="101.6" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
 <label x="116.84" y="101.6" size="1.27" layer="95" font="vector" xref="yes"/>

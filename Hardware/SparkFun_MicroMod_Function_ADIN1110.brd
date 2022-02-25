@@ -9792,7 +9792,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <wire x1="23.62238125" y1="17.77238125" x2="22.882859375" y2="17.77238125" width="0.2032" layer="1"/>
 <wire x1="3.31" y1="22.86" x2="3.31" y2="24.13" width="0.2032" layer="1"/>
 </signal>
-<signal name="SPI_COPI">
+<signal name="SPI_PICO">
 <contactref element="J2" pad="5"/>
 <contactref element="U1" pad="1"/>
 <wire x1="22.05" y1="31.532" x2="22.060159375" y2="31.521840625" width="0.2032" layer="1"/>
@@ -9807,7 +9807,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <wire x1="26.195021875" y1="30.7594" x2="25.43258125" y2="31.521840625" width="0.2032" layer="1"/>
 <wire x1="22.060159375" y1="31.521840625" x2="25.43258125" y2="31.521840625" width="0.2032" layer="1"/>
 </signal>
-<signal name="SPI_CIPO/SPI_CFG0">
+<signal name="SPI_POCI/SPI_CFG0">
 <contactref element="J2" pad="7"/>
 <contactref element="U1" pad="2"/>
 <contactref element="SPI_CFG0" pad="1"/>
