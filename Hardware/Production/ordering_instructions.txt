@@ -1,12 +1,12 @@
-panel size, 129x87mm
+panel size, 129x137mm
 PCB thickness, 0.8mm
-number of layers, 2
+number of layers, 4
 bevel, Gold Fingers + 45° Finger Chamfered
-soldermask color, Black
+soldermask color, Red
 silkscreen color, White
 oz copper, 1oz
 finish, ENIG
 stencils, top
-pcs per panel, 3
-min trace width, 0.1270mm / 0.0050in
+pcs per panel, 6
+min trace width, 0.1524mm / 0.0060in
 min drill size, 0.3048mm / 0.0120in
