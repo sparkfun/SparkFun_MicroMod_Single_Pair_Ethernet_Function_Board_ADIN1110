@@ -9292,6 +9292,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 </element>
 <element name="C11" library="SparkFun-Capacitors" package="0603" value="0.68uF" x="13.28674375" y="33.6702375" smashed="yes" rot="R180">
 <attribute name="NAME" x="13.28674375" y="32.9082375" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-16639" x="13.28674375" y="33.6702375" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="10.452103125" y="33.38321875" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="C12" library="SparkFun-Capacitors" package="0402-TIGHT" value="10nF" x="14.848840625" y="36.33978125" smashed="yes" rot="R90">
@@ -9713,6 +9714,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 </element>
 <element name="C31" library="SparkFun-Capacitors" package="0603" value="0.68uF" x="51.795684375" y="33.6702375" smashed="yes" rot="R180">
 <attribute name="NAME" x="51.795684375" y="32.9082375" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-16639" x="51.795684375" y="33.6702375" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="48.96104375" y="33.38321875" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="C32" library="SparkFun-Capacitors" package="0402-TIGHT" value="10nF" x="53.35778125" y="36.33978125" smashed="yes" rot="R90">
@@ -10134,6 +10136,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 </element>
 <element name="C54" library="SparkFun-Capacitors" package="0603" value="0.68uF" x="90.302084375" y="33.6702375" smashed="yes" rot="R180">
 <attribute name="NAME" x="90.302084375" y="32.9082375" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-16639" x="90.302084375" y="33.6702375" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="87.46744375" y="33.38321875" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="C55" library="SparkFun-Capacitors" package="0402-TIGHT" value="10nF" x="91.86418125" y="36.33978125" smashed="yes" rot="R90">
@@ -10555,6 +10558,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 </element>
 <element name="C77" library="SparkFun-Capacitors" package="0603" value="0.68uF" x="24.714196875" y="105.219503125" smashed="yes">
 <attribute name="NAME" x="24.714196875" y="105.981503125" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-16639" x="24.714196875" y="105.219503125" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="27.5488375" y="105.506521875" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="C78" library="SparkFun-Capacitors" package="0402-TIGHT" value="10nF" x="23.1521" y="102.549959375" smashed="yes" rot="R270">
@@ -10976,6 +10980,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 </element>
 <element name="C100" library="SparkFun-Capacitors" package="0603" value="0.68uF" x="63.220596875" y="105.219503125" smashed="yes">
 <attribute name="NAME" x="63.220596875" y="105.981503125" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-16639" x="63.220596875" y="105.219503125" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="66.0552375" y="105.506521875" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="C101" library="SparkFun-Capacitors" package="0402-TIGHT" value="10nF" x="61.6585" y="102.549959375" smashed="yes" rot="R270">
@@ -11397,6 +11402,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 </element>
 <element name="C123" library="SparkFun-Capacitors" package="0603" value="0.68uF" x="101.7295375" y="105.219503125" smashed="yes">
 <attribute name="NAME" x="101.7295375" y="105.981503125" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-16639" x="101.7295375" y="105.219503125" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="104.564178125" y="105.506521875" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="C124" library="SparkFun-Capacitors" package="0402-TIGHT" value="10nF" x="100.167440625" y="102.549959375" smashed="yes" rot="R270">
