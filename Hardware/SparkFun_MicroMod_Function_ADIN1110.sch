@@ -19919,54 +19919,23 @@ CAP-09321</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP" prefix="C" uservalue="yes">
+<deviceset name="0.68UF" prefix="C">
+<description>&lt;h3&gt;0.68µF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="CAP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-0402" package="0402">
+<device name="-0603-16V-10%-X7R-WE" package="0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-0603" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-0402-TIGHT" package="0402-TIGHT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-0805" package="0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-1206" package="1206">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-16639" constant="no"/>
+<attribute name="VALUE" value="0.68uF" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -24024,7 +23993,7 @@ Out</text>
 <part name="GND35" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%-X7R-WE" value="0.1uF"/>
 <part name="GND36" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C11" library="SparkFun-Capacitors" deviceset="CAP" device="-0603" value="0.68uF"/>
+<part name="C11" library="SparkFun-Capacitors" deviceset="0.68UF" device="-0603-16V-10%-X7R-WE" value="0.68uF"/>
 <part name="GND37" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C12" library="SparkFun-Capacitors" deviceset="10NF" device="-0402T-25V-10%-X7R-WE" value="10nF"/>
 <part name="GND38" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
