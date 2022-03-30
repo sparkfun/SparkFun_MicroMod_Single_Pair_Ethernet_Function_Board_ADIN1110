@@ -24093,7 +24093,7 @@ Out</text>
 <wire x1="162.56" y1="137.16" x2="162.56" y2="0" width="0.2032" layer="97" style="longdash"/>
 <text x="30.734" y="126.746" size="2.54" layer="94" font="vector" ratio="12" align="center">MicroMod Function Connector</text>
 <text x="348.996" y="11.684" size="1.778" layer="94" font="vector">Pete Lewis</text>
-<text x="421.894" y="6.096" size="2.54" layer="94" font="vector">v10</text>
+<text x="421.894" y="6.096" size="2.54" layer="94" font="vector">v11</text>
 <text x="45.72" y="271.78" size="2.54" layer="94" font="vector" ratio="12" align="center">ADIN1110 BASE10-T1L ETHERNET MAC-PHY</text>
 <text x="317.754" y="124.206" size="2.54" layer="94" font="vector" ratio="12" align="center">Power Enable</text>
 <wire x1="294.64" y1="137.16" x2="350.52" y2="137.16" width="0.2032" layer="97" style="longdash"/>
