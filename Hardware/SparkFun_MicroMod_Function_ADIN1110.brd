@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top/Horz" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -196,18 +196,20 @@
 <board>
 <plain>
 <wire x1="28.925" y1="0" x2="22.225" y2="0" width="0.2032" layer="20"/>
-<text x="0.9686" y="58.713278125" size="1.27" layer="16" font="vector" ratio="20" rot="SMR90" align="center">v11</text>
+<text x="1.06511875" y="58.700578125" size="1.27" layer="16" font="vector" ratio="20" rot="SMR90" align="center">v11</text>
 <text x="19.95" y="-14.77" size="1.778" layer="51" font="vector" ratio="10">Pete Lewis</text>
 <wire x1="21.025" y1="0" x2="9.075" y2="0" width="0.2032" layer="20"/>
 <wire x1="28.925" y1="0" x2="28.925" y2="3.5" width="0.2032" layer="20"/>
 <wire x1="28.925" y1="3.5" x2="29.4" y2="4" width="0.2032" layer="20" curve="-90"/>
-<wire x1="29.4" y1="4" x2="38" y2="4" width="0.2032" layer="20"/>
-<wire x1="38" y1="4" x2="38" y2="65" width="0.2032" layer="20"/>
-<wire x1="38" y1="65" x2="0" y2="65" width="0.2032" layer="20"/>
-<wire x1="0" y1="65" x2="0" y2="4" width="0.2032" layer="20"/>
+<wire x1="29.4" y1="4" x2="37.7444" y2="4" width="0.2032" layer="20"/>
+<wire x1="37.7444" y1="4" x2="37.7444" y2="42.2656" width="0.2032" layer="20"/>
+<wire x1="37.7444" y1="45.72" x2="37.7444" y2="65" width="0.2032" layer="20"/>
+<wire x1="37.7444" y1="65" x2="0.254" y2="65" width="0.2032" layer="20"/>
+<wire x1="0.254" y1="65" x2="0.254" y2="45.72" width="0.2032" layer="20"/>
+<wire x1="0.254" y1="42.291" x2="0.254" y2="4" width="0.2032" layer="20"/>
 <wire x1="9.075" y1="0" x2="9.075" y2="3.5" width="0.2032" layer="20"/>
 <wire x1="9.075" y1="3.5" x2="8.55" y2="4" width="0.2032" layer="20" curve="90"/>
-<wire x1="8.55" y1="4" x2="0" y2="4" width="0.2032" layer="20"/>
+<wire x1="8.55" y1="4" x2="0.254" y2="4" width="0.2032" layer="20"/>
 <wire x1="22.225" y1="0" x2="22.225" y2="2.9" width="0.2032" layer="20"/>
 <wire x1="21.025" y1="0" x2="21.025" y2="2.9" width="0.2032" layer="20"/>
 <wire x1="21.025" y1="2.9" x2="22.225" y2="2.9" width="0.2032" layer="20" curve="-180.099671"/>
@@ -235,6 +237,8 @@ function board by N. Seidle</text>
 <dimension x1="0" y1="0" x2="0.027940625" y2="44.071540625" x3="-7.4549" y3="22.03576875" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="0" y1="0" x2="0" y2="4" x3="-2.9972" y3="2" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="14.4018" y1="68.7324" x2="23.5966" y2="68.7324" x3="18.9992" y3="79.1972" textsize="1.778" textratio="15" layer="100" dtype="horizontal" unit="inch"/>
+<wire x1="0.254" y1="45.72" x2="0.254" y2="42.291" width="0.1016" layer="20" curve="-165"/>
+<wire x1="37.7444" y1="45.72" x2="37.7444" y2="42.2656" width="0.1016" layer="20" curve="165"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -2362,11 +2366,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="3.841" y1="2.715" x2="4.681" y2="2.755" layer="21"/>
 <rectangle x1="3.841" y1="2.675" x2="4.681" y2="2.715" layer="21"/>
 <rectangle x1="3.881" y1="2.635" x2="4.641" y2="2.675" layer="21"/>
-<wire x1="-10.4" y1="4" x2="-19" y2="4" width="0.0508" layer="51"/>
-<wire x1="-19" y1="4" x2="-19" y2="65" width="0.0508" layer="51"/>
-<wire x1="10.4" y1="4" x2="19" y2="4" width="0.0508" layer="51"/>
-<wire x1="19" y1="4" x2="19" y2="65" width="0.0508" layer="51"/>
-<wire x1="-19" y1="65" x2="19" y2="65" width="0.0508" layer="51"/>
+<wire x1="-10.4" y1="4" x2="-18.746" y2="4" width="0.0508" layer="51"/>
+<wire x1="-18.746" y1="4" x2="-18.746" y2="65" width="0.0508" layer="51"/>
+<wire x1="10.4" y1="4" x2="18.746" y2="4" width="0.0508" layer="51"/>
+<wire x1="18.746" y1="4" x2="18.746" y2="65" width="0.0508" layer="51"/>
+<wire x1="-18.746" y1="65" x2="18.746" y2="65" width="0.0508" layer="51"/>
 <pad name="GND6" x="18" y="46.1" drill="0.3048" diameter="0.6096" rot="R270"/>
 <pad name="GND4" x="18" y="41.9" drill="0.3048" diameter="0.6096" rot="R270"/>
 <pad name="GND5" x="16.7" y="44" drill="0.3048" diameter="0.6096" rot="R270"/>
@@ -2374,7 +2378,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="GND3" x="-18" y="46.1" drill="0.3048" diameter="0.6096" rot="R90"/>
 <pad name="GND2" x="-16.7" y="44" drill="0.3048" diameter="0.6096" rot="R90"/>
 <wire x1="19" y1="42.25" x2="19" y2="45.75" width="0.0508" layer="47" curve="-180"/>
-<wire x1="19" y1="42.25" x2="19" y2="45.75" width="0.0508" layer="20" curve="-180"/>
 <wire x1="19" y1="41.25" x2="19" y2="46.75" width="0.0508" layer="47" curve="-180"/>
 <polygon width="0.05" layer="1">
 <vertex x="18.75" y="46.75"/>
@@ -2392,7 +2395,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="19" y="41.25" curve="-90"/>
 <vertex x="16.25" y="44" curve="-90"/>
 </polygon>
-<text x="18.3" y="44" size="0.3" layer="20" rot="R270" align="center">Route
+<text x="18.046" y="44" size="0.3" layer="20" rot="R270" align="center">Route
 Out</text>
 <wire x1="18" y1="46.1" x2="18" y2="47.2" width="0.2032" layer="1"/>
 <wire x1="18" y1="46.1" x2="16.7" y2="46.1" width="0.2032" layer="1"/>
@@ -2413,7 +2416,6 @@ Out</text>
 <wire x1="18" y1="46.1" x2="16.7" y2="46.1" width="0.2032" layer="16"/>
 <wire x1="18" y1="46.1" x2="18" y2="47.2" width="0.2032" layer="16"/>
 <wire x1="-19" y1="45.75" x2="-19" y2="42.25" width="0.0508" layer="47" curve="-180"/>
-<wire x1="-19" y1="45.75" x2="-19" y2="42.25" width="0.0508" layer="20" curve="-180"/>
 <wire x1="-19" y1="46.75" x2="-19" y2="41.25" width="0.0508" layer="47" curve="-180"/>
 <polygon width="0.05" layer="1">
 <vertex x="-18.75" y="41.25"/>
@@ -2431,7 +2433,7 @@ Out</text>
 <vertex x="-19" y="46.75" curve="-90"/>
 <vertex x="-16.25" y="44" curve="-90"/>
 </polygon>
-<text x="-18.3" y="44" size="0.3" layer="20" rot="R90" align="center">Route
+<text x="-18.046" y="44" size="0.3" layer="20" rot="R90" align="center">Route
 Out</text>
 <wire x1="-18" y1="41.9" x2="-18" y2="40.8" width="0.2032" layer="1"/>
 <wire x1="-18" y1="41.9" x2="-16.7" y2="41.9" width="0.2032" layer="1"/>
@@ -2467,6 +2469,8 @@ Out</text>
 <vertex x="19" y="41.25" curve="-90"/>
 <vertex x="16.25" y="44" curve="-90"/>
 </polygon>
+<wire x1="-18.747" y1="45.733" x2="-18.745" y2="42.271" width="0.05" layer="20" curve="-163.207251"/>
+<wire x1="18.744" y1="45.731" x2="18.748" y2="42.27" width="0.05" layer="20" curve="163.526612"/>
 </package>
 </packages>
 </library>
@@ -9229,7 +9233,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$6" library="output" package="#PWR#19" value="" x="33.63" y="26.7" smashed="yes" rot="MR0"/>
 <element name="U$10" library="output" package="#LED0#20" value="" x="33.84" y="29.19" smashed="yes" rot="MR0"/>
 <element name="U$29" library="output" package="#LED1#21" value="" x="33.71" y="34.31" smashed="yes" rot="MR0"/>
-<element name="U$31" library="ADIN1110" package="#LINKST#2" value="" x="34.35" y="31.74" smashed="yes" rot="MR0"/>
+<element name="U$31" library="ADIN1110" package="#LINKST#2" value="" x="34.1620375" y="31.7527" smashed="yes" rot="MR0"/>
 <element name="R24" library="SparkFun-Resistors" package="0603" value="1.5k" x="7.62" y="34.29" smashed="yes" rot="R180">
 <attribute name="NAME" x="7.62" y="33.528" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-08306" x="7.62" y="34.29" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
@@ -10357,15 +10361,19 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <approved hash="19,1,955a9a5333a53cac"/>
 <approved hash="19,1,d403d5a27dd47c75"/>
 <approved hash="19,1,133f1035dec3ddc9"/>
-<approved hash="4,1,61913c16d404e7c9"/>
-<approved hash="4,1,2e258076e8d6b52c"/>
-<approved hash="4,16,a71488d0a9a6b9f4"/>
-<approved hash="4,16,f2e4c7e3c6c14c7b"/>
 <approved hash="19,16,9162a27dada6bf0f"/>
 <approved hash="19,16,bc5bbe89ab7fdf8c"/>
 <approved hash="19,16,baa3a215ac18996e"/>
 <approved hash="19,16,9d95a2f1acc4b2a4"/>
 <approved hash="19,16,8938a211ac46a5d9"/>
+<approved hash="4,1,89ce697f38e88dab"/>
+<approved hash="4,1,c0c0a83183bf9eb8"/>
+<approved hash="4,1,9563f68b6ba64379"/>
+<approved hash="4,1,bef4863ea0e51a40"/>
+<approved hash="4,16,fb8a7c303bd4c23d"/>
+<approved hash="4,16,a6d78a26dae1b345"/>
+<approved hash="4,16,8fd1ae9a174cc8cf"/>
+<approved hash="4,16,41ab31f79a905678"/>
 </errors>
 </board>
 </drawing>

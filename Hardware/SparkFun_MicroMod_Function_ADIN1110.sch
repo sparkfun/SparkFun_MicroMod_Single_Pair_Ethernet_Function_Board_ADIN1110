@@ -23512,11 +23512,11 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <rectangle x1="3.841" y1="2.715" x2="4.681" y2="2.755" layer="21"/>
 <rectangle x1="3.841" y1="2.675" x2="4.681" y2="2.715" layer="21"/>
 <rectangle x1="3.881" y1="2.635" x2="4.641" y2="2.675" layer="21"/>
-<wire x1="-10.4" y1="4" x2="-19" y2="4" width="0.0508" layer="51"/>
-<wire x1="-19" y1="4" x2="-19" y2="65" width="0.0508" layer="51"/>
-<wire x1="10.4" y1="4" x2="19" y2="4" width="0.0508" layer="51"/>
-<wire x1="19" y1="4" x2="19" y2="65" width="0.0508" layer="51"/>
-<wire x1="-19" y1="65" x2="19" y2="65" width="0.0508" layer="51"/>
+<wire x1="-10.4" y1="4" x2="-18.746" y2="4" width="0.0508" layer="51"/>
+<wire x1="-18.746" y1="4" x2="-18.746" y2="65" width="0.0508" layer="51"/>
+<wire x1="10.4" y1="4" x2="18.746" y2="4" width="0.0508" layer="51"/>
+<wire x1="18.746" y1="4" x2="18.746" y2="65" width="0.0508" layer="51"/>
+<wire x1="-18.746" y1="65" x2="18.746" y2="65" width="0.0508" layer="51"/>
 <pad name="GND6" x="18" y="46.1" drill="0.3048" diameter="0.6096" rot="R270"/>
 <pad name="GND4" x="18" y="41.9" drill="0.3048" diameter="0.6096" rot="R270"/>
 <pad name="GND5" x="16.7" y="44" drill="0.3048" diameter="0.6096" rot="R270"/>
@@ -23524,7 +23524,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pad name="GND3" x="-18" y="46.1" drill="0.3048" diameter="0.6096" rot="R90"/>
 <pad name="GND2" x="-16.7" y="44" drill="0.3048" diameter="0.6096" rot="R90"/>
 <wire x1="19" y1="42.25" x2="19" y2="45.75" width="0.0508" layer="47" curve="-180"/>
-<wire x1="19" y1="42.25" x2="19" y2="45.75" width="0.0508" layer="20" curve="-180"/>
 <wire x1="19" y1="41.25" x2="19" y2="46.75" width="0.0508" layer="47" curve="-180"/>
 <polygon width="0.05" layer="1">
 <vertex x="18.75" y="46.75"/>
@@ -23542,7 +23541,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <vertex x="19" y="41.25" curve="-90"/>
 <vertex x="16.25" y="44" curve="-90"/>
 </polygon>
-<text x="18.3" y="44" size="0.3" layer="20" rot="R270" align="center">Route
+<text x="18.046" y="44" size="0.3" layer="20" rot="R270" align="center">Route
 Out</text>
 <wire x1="18" y1="46.1" x2="18" y2="47.2" width="0.2032" layer="1"/>
 <wire x1="18" y1="46.1" x2="16.7" y2="46.1" width="0.2032" layer="1"/>
@@ -23563,7 +23562,6 @@ Out</text>
 <wire x1="18" y1="46.1" x2="16.7" y2="46.1" width="0.2032" layer="16"/>
 <wire x1="18" y1="46.1" x2="18" y2="47.2" width="0.2032" layer="16"/>
 <wire x1="-19" y1="45.75" x2="-19" y2="42.25" width="0.0508" layer="47" curve="-180"/>
-<wire x1="-19" y1="45.75" x2="-19" y2="42.25" width="0.0508" layer="20" curve="-180"/>
 <wire x1="-19" y1="46.75" x2="-19" y2="41.25" width="0.0508" layer="47" curve="-180"/>
 <polygon width="0.05" layer="1">
 <vertex x="-18.75" y="41.25"/>
@@ -23581,7 +23579,7 @@ Out</text>
 <vertex x="-19" y="46.75" curve="-90"/>
 <vertex x="-16.25" y="44" curve="-90"/>
 </polygon>
-<text x="-18.3" y="44" size="0.3" layer="20" rot="R90" align="center">Route
+<text x="-18.046" y="44" size="0.3" layer="20" rot="R90" align="center">Route
 Out</text>
 <wire x1="-18" y1="41.9" x2="-18" y2="40.8" width="0.2032" layer="1"/>
 <wire x1="-18" y1="41.9" x2="-16.7" y2="41.9" width="0.2032" layer="1"/>
@@ -23617,6 +23615,8 @@ Out</text>
 <vertex x="19" y="41.25" curve="-90"/>
 <vertex x="16.25" y="44" curve="-90"/>
 </polygon>
+<wire x1="-18.747" y1="45.733" x2="-18.745" y2="42.271" width="0.05" layer="20" curve="-163.207251"/>
+<wire x1="18.744" y1="45.731" x2="18.748" y2="42.27" width="0.05" layer="20" curve="163.526612"/>
 </package>
 <package name="M.2-CONNECTOR-E-FUNCTION-STANDARD">
 <hole x="10" y="0" drill="1.1"/>
