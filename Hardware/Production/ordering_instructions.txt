@@ -1,4 +1,4 @@
-panel size, 129x137mm
+panel size, 128x137mm
 PCB thickness, 0.8mm
 number of layers, 4
 bevel, Gold Fingers + 45° Finger Chamfered
